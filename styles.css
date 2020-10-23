@@ -1,0 +1,43 @@
+body {
+  color: red;
+}
+
+.black-border {
+  border: 5px solid black;
+  margin: 0 auto;
+}
+
+#green-background {
+  background-color: green;
+}
+
+.blue-border {
+  border: 5px solid blue;
+  margin: 10px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding: 10px;
+}
+
+.center-title {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.navigation-links li {
+  display: inline;
+  margin: 10px;
+}
+
+@media (min-width: 1024px) {
+  background-color: ;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
